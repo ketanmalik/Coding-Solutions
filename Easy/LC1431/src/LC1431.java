@@ -16,15 +16,16 @@ Kid 1 has 2 candies and if he or she receives all extra candies (3) will have 5 
 Kid 2 has 3 candies and if he or she receives at least 2 extra candies will have the greatest number of candies among the kids. 
 Kid 3 has 5 candies and this is already the greatest number of candies among the kids. 
 Kid 4 has 1 candy and even if he or she receives all extra candies will only have 4 candies. 
-Kid 5 has 3 candies and if he or she receives at least 2 extra candies will have the greatest number of candies among the kids. 
-*/
+Kid 5 has 3 candies and if he or she receives at least 2 extra candies will have the greatest number of candies among the kids.
 
-package lc1431;
+ @author ketanmalik
+ May 05 2020
+*/
 
 import java.util.ArrayList;
 import java.util.List;
 
-class lc1431 {
+class LC1431 {
     public static void main(String args[]) {
         int[] candies = { 2, 3, 5, 1, 3 };
         int extraCandies = 3;

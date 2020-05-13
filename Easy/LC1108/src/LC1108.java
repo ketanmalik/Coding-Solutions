@@ -2,17 +2,13 @@
 Leetcode #1108
 
 Given a valid (IPv4) IP address, return a defanged version of that IP address.
-
 A defanged IP address replaces every period "." with "[.]".
 
- 
-
 Example 1:
-
 Input: address = "1.1.1.1"
 Output: "1[.]1[.]1[.]1"
-Example 2:
 
+Example 2:
 Input: address = "255.100.50.0"
 Output: "255[.]100[.]50[.]0" 
  
@@ -45,6 +41,22 @@ public class LC1108 {
 	 * Shorter approach but takes more time
 	 * 
 	 * return address.replaceAll("//.","[.]");
+	 * 
+	 * 
+	 * String is immutable and synchronous i.e. Once string object is created its
+	 * data or state can't be changed. Whenever we change any string, a new instance
+	 * is created. so, internally an object get created, everytime we are modifying
+	 * a string.
+	 * 
+	 * Whereas, stringbuffer class is mutable and thread safe. It provides methods
+	 * which directly modify the contents of the object and it can also expand
+	 * dynamically.
+	 * 
+	 * Reason: When we say java string is synchronous, it means we are locking the
+	 * object. when a thread acts on it, it is locked and other thread should wait
+	 * till the current thread completes its task and unlock the object.
+	 * Synchronization does not allow more than one thread to act simultaneously on
+	 * the object. So JVM takes some time for locking and unlocking of the object.
 	 */
 
 }

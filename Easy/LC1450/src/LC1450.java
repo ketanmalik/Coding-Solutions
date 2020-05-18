@@ -18,6 +18,9 @@ The first student started doing homework at time 1 and finished at time 3 and wa
 The second student started doing homework at time 2 and finished at time 2 and also wasn't doing anything at time 4.
 The third student started doing homework at time 3 and finished at time 7 and was the only student doing homework at time 4.
  
+ 
+@author ketanmalik
+May 18 2020	
 */
 
 public class LC1450 {

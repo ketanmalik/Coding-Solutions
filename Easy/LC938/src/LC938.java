@@ -34,8 +34,6 @@ May 19 2020
 
 
 public class LC938 {
-	class Solution {
-	    // List<Integer> vals = new ArrayList<>();
 	    int res;
 	    public int rangeSumBST(TreeNode root, int L, int R) {
 	        res = 0;
@@ -48,5 +46,4 @@ public class LC938 {
 	        recTree(root.left, L, R);
 	        recTree(root.right, L, R);
 	    }
-	}
 }

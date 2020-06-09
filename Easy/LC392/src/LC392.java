@@ -28,3 +28,4 @@ class LC392 {
 		return false;
 	}
 }
+
